@@ -21,14 +21,17 @@ a {
 
 /* Consolidated header information */
 
-.header {
+#header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+
+
+/* try header id instead of classes */
+#header h1 {
     display: inline-block;
     font-size: 48px;
     color: #ffffff;
@@ -38,7 +41,7 @@ a {
     color: #d9dcd6;
 }
 
-.header div {
+#header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,7 +49,7 @@ a {
     font-size: 20px;
 }
 
-.header ul li {
+#header ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
@@ -65,7 +68,7 @@ a {
 
 /*Content class to follow Hero for HTML flow*/
 
-.content {
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
